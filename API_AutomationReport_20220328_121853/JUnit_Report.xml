@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TabSquare_Quest1_APITesting" time="3.393" tests="1" failures="0" errors="0">
+   <testsuite name="TabSquare_Quest1_APITesting" tests="1" failures="0" errors="0" time="3.393" skipped="0" timestamp="2022-03-28 12:19:06" hostname="VThazhevadoo - INBMWN154368.ad.harman.com" id="Test Suites/TabSquare_Quest1_APITesting">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Harman\\Katalon\\Project\\WebAPI_Automation\\WebAPI_Automation\\Reports\\20220328_121853\\TabSquare_Quest1_APITesting\\20220328_121853"/>
+         <property name="logFiles" value="C:\\Harman\\Katalon\\Project\\WebAPI_Automation\\WebAPI_Automation\\Reports\\20220328_121853\\TabSquare_Quest1_APITesting\\20220328_121853\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="VThazhevadoo - INBMWN154368.ad.harman.com"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/WebAPITest_APITest" time="3.102" classname="Test Cases/WebAPITest_APITest" status="PASSED">
+         <system-out><![CDATA[2022-03-28 12:19:06 - [TEST_CASE][PASSED] - Test Cases/WebAPITest_APITest: Test Cases/WebAPITest_APITest
+
+2022-03-28 12:19:06 - [TEST_STEP][PASSED] - APIResponse = sendRequest(findTestObject("WebServiceRequest/TabSquare_GetRequest")): Send request successfully
+
+2022-03-28 12:19:09 - [MESSAGE][INFO] - HAR: C:\Harman\Katalon\Project\WebAPI_Automation\WebAPI_Automation\Reports\20220328_121853\TabSquare_Quest1_APITesting\20220328_121853\requests\main\0.har
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Send request successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(APIResponse, 200): Verify response status code successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(APIResponse, "address", "Singapore"): Verify element property value successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(APIResponse, "employeeDetails[0].firstName", "Andre"): Verify element property value successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(APIResponse, "employeeDetails[0].lastName", "Wijaya"): Verify element property value successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(APIResponse, "employeeDetails[0].DOB", 221150): Verify element property value successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(APIResponse, "employeeDetails[1].firstName", "Sam"): Verify element property value successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(APIResponse, "employeeDetails[1].lastName", "Smith"): Verify element property value successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-03-28 12:19:09 - [TEST_STEP][PASSED] - verifyElementPropertyValue(APIResponse, "employeeDetails[1].DOB", 512300): Verify element property value successfully
+
+2022-03-28 12:19:09 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-03-28 12:19:06 - [TEST_SUITE][PASSED] - TabSquare_Quest1_APITesting: Test Cases/WebAPITest_APITest]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

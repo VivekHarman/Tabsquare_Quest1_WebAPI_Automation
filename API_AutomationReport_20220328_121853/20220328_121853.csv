@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TabSquare_Quest1_APITesting,,,,2022-03-28 12:19:06,2022-03-28 12:19:09,3.393s,PASSED
+,,,,,,,
+Test Cases/WebAPITest_APITest,,,,2022-03-28 12:19:06,2022-03-28 12:19:09,3.102s,PASSED
+"APIResponse = sendRequest(findTestObject(""WebServiceRequest/TabSquare_GetRequest""))",,,,2022-03-28 12:19:06,2022-03-28 12:19:09,2.440s,PASSED
+"verifyResponseStatusCode(APIResponse, 200)",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.016s,PASSED
+"verifyElementPropertyValue(APIResponse, ""address"", ""Singapore"")",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.063s,PASSED
+"verifyElementPropertyValue(APIResponse, ""employeeDetails[0].firstName"", ""Andre"")",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.032s,PASSED
+"verifyElementPropertyValue(APIResponse, ""employeeDetails[0].lastName"", ""Wijaya"")",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.027s,PASSED
+"verifyElementPropertyValue(APIResponse, ""employeeDetails[0].DOB"", 221150)",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.025s,PASSED
+"verifyElementPropertyValue(APIResponse, ""employeeDetails[1].firstName"", ""Sam"")",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.030s,PASSED
+"verifyElementPropertyValue(APIResponse, ""employeeDetails[1].lastName"", ""Smith"")",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.029s,PASSED
+"verifyElementPropertyValue(APIResponse, ""employeeDetails[1].DOB"", 512300)",,,,2022-03-28 12:19:09,2022-03-28 12:19:09,0.027s,PASSED
